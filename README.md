@@ -1,29 +1,31 @@
-# Detectarea Tumorilor Cerebrale folosind KNN și Naive Bayes
+# Brain Tumor Detection using KNN and Naive Bayes
 
-## Descriere Proiect
+## Project Overview
 
-Acest proiect abordează detectarea tumorilor cerebrale prin analiza imaginilor de rezonanță magnetică (MRI) utilizând algoritmii K-Nearest Neighbors (KNN) și Naive Bayes (NB). În plus, rezultatele acestor metode sunt comparate cu cele obținute prin algoritmul Support Vector Machine (SVM) pentru a evalua eficacitatea diferitelor abordări.
+This project addresses the detection of brain tumors by analyzing Magnetic Resonance Imaging (MRI) images using K-Nearest Neighbors (KNN) and Naive Bayes (NB) algorithms. Additionally, the outcomes of these methods are compared with results obtained using the Support Vector Machine (SVM) algorithm to evaluate the effectiveness of different approaches.
 
-## Codul Sursă
+## Source Code
 
-- `knn_nb_stack.py`: Implementarea algoritmului de stacking care combină KNN și NB cu Logistic Regression ca meta-învățător.
-- `svm_model.py`: Codul sursă pentru implementarea modelului SVM (furnizat separat).
+- `knn_nb_stack.py`: Implementation of the stacking algorithm combining KNN and NB with Logistic Regression as the meta-learner.
+- `svm_model.py`: Source code for the SVM model implementation (provided separately).
 
-## Procesul de Antrenare și Evaluare
+## Training and Evaluation Process
 
-Modelul KNN/NB a fost antrenat pe un set de date constând din imagini MRI preprocesate și etichetate. Performanța modelului a fost evaluată în funcție de acuratețe, precizie, recall și scorul F1. Similar, modelul SVM a fost evaluat folosind aceleași metrici pentru a permite o comparație directă.
+The KNN/NB model was trained on a dataset consisting of preprocessed and labeled MRI images. The model's performance was evaluated based on accuracy, precision, recall, and F1 score. Similarly, the SVM model was evaluated using the same metrics to enable direct comparison.
 
-## Rezultate și Comparare
+## Results and Comparison
 
-- **Rezultate KNN/NB**: Detalii despre acuratețea, precizia, recall-ul și scorul F1 obținut de modelul KNN/NB.
-- **Rezultate SVM**: Informații similare despre performanța modelului SVM.
-- **Comparare**: O analiză a performanțelor celor două abordări, evidențiind avantajele și limitările fiecăreia.
+- **KNN/NB Results**: Details on the accuracy, precision, recall, and F1 score achieved by the KNN/NB model.
+- **SVM Results**: Similar information about the performance of the SVM model.
+- **Comparison**: An analysis of the performance of the two approaches, highlighting the advantages and limitations of each.
 
-## Utilizare
+## Usage
 
-Pentru a rula modelele și a evalua performanța acestora:
+To run the models and evaluate their performance:
 
 ```bash
 python knn_nb_stack.py
 python svm_model.py
 
+
+This README provides an overview of the project, implementation details, as well as a structure for including results and comparisons. Please fill in the specific sections with information and results from your project.
