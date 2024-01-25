@@ -2,7 +2,8 @@
 
 ## Project Overview
 
-This project addresses the detection of brain tumors by analyzing Magnetic Resonance Imaging (MRI) images using K-Nearest Neighbors (KNN) and Naive Bayes (NB) algorithms. Additionally, the outcomes of these methods are compared with results obtained using the Support Vector Machine (SVM) algorithm to evaluate the effectiveness of different approaches.
+This project addresses the detection of brain tumors by analyzing Magnetic Resonance Imaging (MRI) images using K-Nearest Neighbors (KNN) and Naive Bayes (NB) algorithms. Additionally, the outcomes of these methods are compared with results obtained using the Support Vector Machine (SVM) algorithm to evaluate the effectiveness of different approaches. 
+You can find more detailed project information in the ** attached PDF 'Vadana_Ioan_Grigore_334AA_KNN&NB' **.
 
 ## Source Code
 
