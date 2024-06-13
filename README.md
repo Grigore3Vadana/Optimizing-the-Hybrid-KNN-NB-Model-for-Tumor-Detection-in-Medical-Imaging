@@ -44,7 +44,7 @@ Complexity and Speed: SVMs can be computationally intensive, especially with lar
 Suitability: Depending on the dataset characteristics (size, imbalance), one model may outperform the other. The detailed analysis explores these aspects, providing a guide on when to use each model effectively.
 Visual Results: The provided graphs and performance charts (confusion matrices, ROC curves) visually underline the strengths and weaknesses of each approach, assisting in a clearer understanding of practical implications.
 
-# Additional detailed comparisons and analysis can be found in the attached PDF document, 'Vadana_Ioan_Grigore_334AA_KNN&NB'. This document provides a comprehensive overview of the project findings and methodological approaches.
+## Additional detailed comparisons and analysis can be found in the attached PDF document, 'Vadana_Ioan_Grigore_334AA_KNN&NB'. This document provides a comprehensive overview of the project findings and methodological approaches.
 
 ## Disclaimer
 The performance of the model depends on the quality and size of the dataset. This script is intended for educational purposes and may require adjustments for production use.
