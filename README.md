@@ -26,7 +26,7 @@ no_tumor_images, no_tumor_labels = load_images_from_folder('path_to_no_tumor_ima
 
 Run the script to train and test the SVM model on your data.
 
-#Results and Comparison
+# Results and Comparison
 
 # KNN/NB Results
 ## Accuracy: Detailed accuracy figures are provided in the results section.
