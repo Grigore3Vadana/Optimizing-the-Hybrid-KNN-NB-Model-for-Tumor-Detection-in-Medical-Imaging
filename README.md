@@ -9,7 +9,7 @@ knn_nb_stack.py: Implements a stacking ensemble model that combines KNN and NB, 
 svm_model.py: Contains the implementation of the SVM model, which is configured with a linear kernel to classify the processed MRI images.
 
 # Training and Evaluation Process
-Both models were trained on a dataset of preprocessed and labeled MRI images. The following metrics were used to evaluate the models:
+# Both models were trained on a dataset of preprocessed and labeled MRI images. The following metrics were used to evaluate the models:
 
 ## Accuracy: Measures the overall correctness of the model.
 ## Precision: Indicates the proportion of positive identifications that were actually correct.
